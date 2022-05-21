@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Online Tutorial</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="img/logo.png" alt="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="loja.html">Loja</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li id="lg-bag"><a class="active"  href="carrinho.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="carrinho.html"><i class="fa-solid fa-bag-shopping"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+        
+    </section>
+
+    <section id="page-header" class="about-header">
+        
+        <h2>#QuemSomos</h2>
+        <p>Deixe uma mensagem. Nós gostariamos de te ouvir!</p>
+
+    </section>
+
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remover</td>
+                    <td>Imagem</td>
+                    <td>Produto</td>
+                    <td>Preço</td>
+                    <td>Quantidade</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="fa-solid fa-trash-can"></i></a></td>
+                    <td><img src="img/products/f1.jpg" alt=""></td>
+                    <td>Camiseta Astronauta</td>
+                    <td>R$108,00</td>
+                    <td><input type="number" value="1"></td>
+                    <td>R$108,00</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fa-solid fa-trash-can"></i></a></td>
+                    <td><img src="img/products/f2.jpg" alt=""></td>
+                    <td>Camiseta Astronauta</td>
+                    <td>R$108,00</td>
+                    <td><input type="number" value="1"></td>
+                    <td>R$108,00</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fa-solid fa-trash-can"></i></a></td>
+                    <td><img src="img/products/f3.jpg" alt=""></td>
+                    <td>Camiseta Astronauta</td>
+                    <td>R$108,00</td>
+                    <td><input type="number" value="1"></td>
+                    <td>R$108,00</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Aplicar Cupom</h3>
+            <div>
+                <input type="text" placeholder="Insira Seu Cupom">
+                <button class="normal">Inserir</button>
+            </div>
+        </div>
+        <div id="subtotal">
+            <h3>Total da Compra</h3>
+            <table>
+                <tr>
+                    <td>Subtototal da Compra</td>
+                    <td>R$335</td>
+                </tr>
+                <tr>
+                    <td>Frete</td>
+                    <td>Grátis</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>R$324</strong></td>
+                </tr>
+            </table>
+            <button class="normal">Finalize a compra</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col"><img class="logo" src="img/logo.png" alt="">
+            <h4>Contato</h4>
+            <p><strong>Endereço:</strong> 562 Wellington Road, Street 32, San Francisco</p>
+            <p><strong>Telefone:</strong> 71 3333 365 / 21 2222 564</p>
+            <p><strong>Horário:</strong> 07:00 às 21:00, Seg - Sáb</p>
+            <div class="follow">
+                <h4>Siga-nos</h4>
+                <div>
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>Sobre</h4>
+            <a href="#">Sobre nós</a>
+            <a href="#">Informações de Entrega</a>
+            <a href="#">Política de Privacidade</a>
+            <a href="#">Termos & Condições</a>
+            <a href="#">Contato</a>
+        </div>
+
+        <div class="col">
+            <h4>Minha Conta</h4>
+            <a href="#">Acessar</a>
+            <a href="#">Ver Carrinho</a>
+            <a href="#">Minha Lista de Desejo</a>
+            <a href="#">Rastrear Meu Pedido</a>
+            <a href="#">Ajuda</a>
+        </div>
+
+        <div class="col install">
+            <h4>Instalar Aplicativo</h4>
+            <p>Pela App Store ou Google Play</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="">
+                <img src="img/pay/play.jpg" alt="">
+            </div>
+            <p>Certificados de Segurança</p>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+
+        <div class="copyright">
+            <p>© 2022, Luan Assis - Projeto do canal Tech2 etc.</p>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
